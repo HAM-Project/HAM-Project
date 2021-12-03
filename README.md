@@ -1,4 +1,4 @@
-This is the alternative splicing pipeline we have created for our group project. The data folder holds the .sam and .bam files along with a link to download the .gtf file we used in our pipeline. The src folder holds the code we wrote to convert a fastq file to a .sam, compress the .sam to a .bam, and to find the splice junctions using SPLICE-q.
+This is the alternative splicing pipeline we have created for our group project. The data folder holds the .sam and .bam files along with a link to download the .gtf file we used in our pipeline. The src folder holds the code we wrote to convert a fastq file to a .sam, zip.py is in one ec2 instance and compress the .sam to a .bam using samtools, and splice.py is used to find the splice junctions using SPLICE-q.
 
 <!--
 **HAM-Project/HAM-Project** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
